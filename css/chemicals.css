@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Enriqueta');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Merienda', cursive!important;
+    text-shadow: 2px 2px 2px white;
+}
+.address{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+ background-blend-mode: multiply,multiply;
+    border-radius: 30px;
+    text-align: left;
+    color: azure;
+    font-family: 'Enriqueta', serif;
+}
+.lnk{
+    color: lightgrey;
+}
+.lnk:hover{
+    color: burlywood;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+}
+.responsive {
+    width: 100%;
+    height: 55%;
+    
+}
+h1{
+    padding-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    color: snow;
+}
+.boot{
+   
+   
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/chemical.jpeg");
+    position: relative;
+    text-align: center;
+    background-size: cover;
+}
+.div1 {
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  .text-block {
+    display: block;
+    width: 80%;
+    position: relative;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text-block:hover{
+  box-shadow:  5px 5px cyan;
+  text-shadow: 3px 3px 4px red;
+}
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image:hover  {
+	width: 100%;
+}
+a:link{
+    text-decoration: none;
+}
+.footer {
+    padding: 50px 0 20px 0;
+    background-image: url("images/nav.jpg");
+    color: #FFF;
+    position: relative;
+}
+.footer .title{text-align: left;color:#fff;font-size:25px;}
+
+
+.footer .social-icon{padding:0px;margin:0px;}
+.footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.footer .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.footer .acount-icon .fa{margin-right:25px;}
+
+
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+
+.footer .payment{margin:0px;padding:0px;list-style-type:none}
+.footer .payment li{list-style-type:none}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+.colll{
+    background-image: url("images/nav1.jpg");
+  }
+  #feedback { 
+    height: 40px;
+    width: 174px;
+    position: fixed;
+    text-align: center;
+    right: -67px;
+    top: 50%;
+    z-index: 1000;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    color: white;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#feedback a { 
+    display: block; 
+    background: #06c; 
+    height: 30px; 
+    width: 165px; 
+    padding: 8px 16px;
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+    font-size: 17px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    border-bottom: solid 1px #333; border-left: solid 1px #333; border-right: solid 1px #fff;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+span.multiselect-native-select {
+	position: relative
+}
+span.multiselect-native-select select {
+	border: 0!important;
+	clip: rect(0 0 0 0)!important;
+	height: 1px!important;
+	margin: -1px -1px -1px -3px!important;
+	overflow: hidden!important;
+	padding: 0!important;
+	position: absolute!important;
+	width: 1px!important;
+	left: 50%;
+	top: 30px
+}
+.multiselect-container {
+	position: absolute;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+.multiselect-container .input-group {
+	margin: 5px
+}
+.multiselect-container>li {
+	padding: 0
+}
+.multiselect-container>li>a.multiselect-all label {
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group label {
+	margin: 0;
+	padding: 3px 20px 3px 20px;
+	height: 100%;
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group-clickable label {
+	cursor: pointer
+}
+.multiselect-container>li>a {
+	padding: 0
+}
+.multiselect-container>li>a>label {
+	margin: 0;
+	height: 100%;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 3px 0 3px 30px
+}
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
+	margin: 0
+}
+.multiselect-container>li>a>label>input[type=checkbox] {
+	margin-bottom: 5px
+}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio {
+	padding: 3px 20px 3px 40px
+}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] {
+	margin-left: -20px;
+	margin-right: 0
+}
+.btn-block {
+    display: block;
+    width: 400%!important;
+    max-width: 400px;
+}
+@media only screen and (max-width: 600px) {
+    .btn-block {
+        width: 100%!important;
+    }
+}
+.drpp{
+    background-color: black!important;
+    color: white!important;
+  }
+  .drp{
+    color: whitesmoke;
+    border-radius: 5px;
+  }
+  .drp:hover{
+    background-color: silver;
+  }
+  
+  .drpd{
+    color: rgba(0,0,0,0.8);
+    background-color: white;
+    border-radius: 2px;
+    font-weight: bold;
+  }

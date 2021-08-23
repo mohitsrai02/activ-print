@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.row1{
+    margin-top: 20px;
+    text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+h2{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 3em;
+}
+h5{
+  font-family: 'Quicksand', sans-serif;
+}
+h1{
+  font-family: tahoma;
+
+  color: gainsboro;
+}
+
+h3{
+  font-family: comic sans ms;
+ 
+}
+body
+{font-family: Arial, Helvetica, sans-serif;
+background-color: black;}
+
+
+.container-fluid {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/about-us-background-images-for-website-12.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px; 
+    background-color: black;
+    padding: 20px;
+    position: relative;
+    color: white;
+}
+
+  img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+.responsive {
+    width: 100%;
+    height: 55%;
+}
+.column {
+
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-top: 50px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .icon {
+   
+    color: ivory !important;
+  }
+  .true{
+    margin-top: 50px;
+  }
+  p{
+    color: black !important;
+  }
+  .colll{
+    background-image: url("images/nav1.jpg");
+  }
+  .footer {
+    padding: 50px 0 20px 0;
+    background-image: url("images/nav.jpg");
+    color: #FFF !important;
+    position: relative;
+}
+.p1{
+  color: #FFF !important;
+}
+.footer .title{text-align: left;color:#fff;font-size:25px;}
+
+
+.footer .social-icon{padding:0px;margin:0px;}
+.footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.footer .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.footer .acount-icon .fa{margin-right:25px;}
+
+
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+
+.footer .payment{margin:0px;padding:0px;list-style-type:none}
+.footer .payment li{list-style-type:none}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+#feedback { 
+  height: 40px;
+  width: 174px;
+  position: fixed;
+  text-align: center;
+  right: -67px;
+  top: 50%;
+  z-index: 1000;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  color: white;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#feedback a { 
+  display: block; 
+  background: #06c; 
+  height: 30px; 
+  width: 165px; 
+  padding: 8px 16px;
+  color: #fff; 
+  font-family: Arial, sans-serif; 
+  font-size: 17px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  border-bottom: solid 1px #333; border-left: solid 1px #333; border-right: solid 1px #fff;
+}
+
+
+.tbl{
+  background-color: black ;
+  color: white!important;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;  
+  word-spacing: 0px;
+
+}
+
+.dropdown-item {
+  color : white!important;
+  border-radius: 4px;
+}
+.dropdown-item:hover {
+background-color: dimgrey!important;
+}
+
+.show{
+  border: 1px solid black;
+  background: rgba(255, 255, 255, 0)!important;
+  border: none!important;
+}
+#feedback a { 
+  display: block; 
+  background: #06c; 
+  height: 30px; 
+  width: 165px; 
+  padding: 8px 16px;
+  color: #fff; 
+  font-family: Arial, sans-serif; 
+  font-size: 17px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  border-bottom: solid 1px #333; border-left: solid 1px #333; border-right: solid 1px #fff;
+}
+.sticky-top
+{
+  z-index: 49!important;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+}
+span.multiselect-native-select {
+position: relative
+}
+span.multiselect-native-select select {
+border: 0!important;
+clip: rect(0 0 0 0)!important;
+height: 1px!important;
+margin: -1px -1px -1px -3px!important;
+overflow: hidden!important;
+padding: 0!important;
+position: absolute!important;
+width: 1px!important;
+left: 50%;
+top: 30px
+}
+.multiselect-container {
+position: absolute;
+list-style-type: none;
+margin: 0;
+padding: 0
+}
+.multiselect-container .input-group {
+margin: 5px
+}
+.multiselect-container>li {
+padding: 0
+}
+.multiselect-container>li>a.multiselect-all label {
+font-weight: 700
+}
+.multiselect-container>li.multiselect-group label {
+margin: 0;
+padding: 3px 20px 3px 20px;
+height: 100%;
+font-weight: 700
+}
+.multiselect-container>li.multiselect-group-clickable label {
+cursor: pointer
+}
+.multiselect-container>li>a {
+padding: 0
+}
+.multiselect-container>li>a>label {
+margin: 0;
+height: 100%;
+cursor: pointer;
+font-weight: 400;
+padding: 3px 0 3px 30px
+}
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
+margin: 0
+}
+.multiselect-container>li>a>label>input[type=checkbox] {
+margin-bottom: 5px
+}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px
+}
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio {
+padding: 3px 20px 3px 40px
+}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] {
+margin-left: -20px;
+margin-right: 0
+}
+.btn-block {
+  display: block;
+  width: 400%!important;
+  max-width: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .btn-block {
+      width: 100%!important;
+  }
+}
+.a1{
+  background-color: white!important;
+  color: white!important;
+}
+
+.drpp{
+  background-color: black!important;
+  color: white!important;
+}
+.drp{
+  color: whitesmoke;
+  border-radius: 5px;
+}
+.drp:hover{
+  background-color: silver;
+}
